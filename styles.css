@@ -7,7 +7,40 @@ a{
 img{
     border-radius: 10px;
 }
-
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
 footer{
     display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+header> nav{
+    margin: 0 1rem;
+}
+
+.airbnb-ur-home{
+    margin: 0 0 0 50rem;
+}
+.card-col{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    position: sticky;
+    top: 1px;
+    z-index: 2;
+}
+.icons{
+    position: sticky;
+    top: 5px;
+    z-index: 2;
+    background-color: white;
 }
